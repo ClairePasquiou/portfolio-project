@@ -109,16 +109,16 @@ img {
 /*Work section */
 
 .content-container {
-  background: var(--fourth-color) ;
+  background: var(--fourth-color);
   padding: 140px 20px;
 }
 
 /*Contact page*/
 
-.contact-text{
+.contact-text {
   color: var(--fourth-color);
 }
-.contact-container{
+.contact-container {
   padding: 160px 20px;
 }
 
@@ -131,7 +131,7 @@ img {
     font-size: 30px;
   }
 
-  h4{
+  h4 {
     font-size: 20px;
   }
 
@@ -157,23 +157,55 @@ img {
   }
 
   .btn-branding {
-    display: block;
     margin: 0px;
-
   }
 
-  .work{
+  .work {
     padding: 30px;
   }
+
+
 }
 
-/* Grey effect on images */
-.project-img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+
+
+/*Navigation*/
+
+nav{
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
 }
 
-.project-img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
+nav a{
+  text-decoration: none;
+  color: var(--third-color);
+  transition: all 100ms ease-in-out;
 }
+
+
+
+nav a:hover, nav li.active a{
+  color: var(--fourth-color);
+}
+
+.brand{
+  text-decoration: none;
+  color: var(--fourth-color);
+  font-weight: 700;
+  font-size: 23px;
+
+}
+
+.brand:hover{
+  color: var(--third-color);
+}
+
