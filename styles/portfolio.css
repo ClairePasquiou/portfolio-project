@@ -1,6 +1,9 @@
 /* font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Outfit', sans-serif;*/
 
+body{
+  margin:20px;
+}
 h1{
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: bold;
