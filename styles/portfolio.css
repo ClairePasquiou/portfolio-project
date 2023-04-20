@@ -113,6 +113,14 @@ img {
   padding: 140px 20px;
 }
 
+/*Contact page*/
+
+.contact-text{
+  color: var(--fourth-color);
+}
+.contact-container{
+  padding: 160px 20px;
+}
 
 @media (max-width: 960px) {
   h1 {
