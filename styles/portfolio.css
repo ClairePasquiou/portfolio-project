@@ -33,9 +33,14 @@ h2,p{
 h2{
   font-size: 44px;
 }
+
 p{
   font-size:16px;
   line-height: 1.7;
+}
+
+img{
+  border-radius: 10px;
 }
 
 .hero {
@@ -64,6 +69,7 @@ p{
   color:var(--fourth-color);
   border:1px solid var(--third-color);
 }
+
 
 
 
