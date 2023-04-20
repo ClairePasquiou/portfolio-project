@@ -1,15 +1,46 @@
-/* font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Outfit', sans-serif;*/
-
-body{
-  margin:20px;
+:root {
+  --first-color: #f0f5f9;
+  --second-color: #c9d6df;
+  --third-color: #52616b;
+  --fourth-color: #1e2022;
+  --heading-font-family: "Nanum Gothic", sans-serif;
+  --default-font-family: "Outfit", sans-serif;
 }
-h1{
-  font-family: 'Nanum Gothic', sans-serif;
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: var(--first-color);
+}
+
+h1 {
+  font-size: 66px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
-  text-align: center;
 }
 
+.hero {
+  background: var(--fourth-color);
+  text-align: center;
+  padding: 160px 20px;
+}
 
+.hero h4 {
+  font-family: var(--default-font-family);
+  font-weight: lighter;
+}
 
+.btn-branding {
+  background: var(--third-color);
+  border-radius: 4px;
+  color: var(--first-color);
+  font-size: 18px;
+  line-height: 30px;
+}
