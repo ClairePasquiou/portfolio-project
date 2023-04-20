@@ -26,6 +26,18 @@ h1 {
   font-weight: bold;
 }
 
+h2,p{
+  color:var(--fourth-color);
+}
+
+h2{
+  font-size: 44px;
+}
+p{
+  font-size:16px;
+  line-height: 1.7;
+}
+
 .hero {
   background: var(--fourth-color);
   text-align: center;
@@ -43,4 +55,36 @@ h1 {
   color: var(--first-color);
   font-size: 18px;
   line-height: 30px;
+}
+
+.btn-branding-outline{
+  font-size: 18px;
+  line-height: 30px;
+  border-radius: 4px;
+  color:var(--fourth-color);
+  border:1px solid var(--third-color);
+}
+
+
+
+@media(max-width:960px){
+  h1{
+    font-size:40px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .hero{
+    padding: 80px 20px;
+  }
+
+  .project-description{
+    padding:0;
+    text-align: center;
+
+  }
+
+
 }
