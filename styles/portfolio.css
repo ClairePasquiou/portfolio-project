@@ -9,7 +9,6 @@
 
 body {
   font-family: var(--default-font-family);
-  
 }
 
 h1,
@@ -17,55 +16,51 @@ h2,
 h3,
 h4,
 h5,
-h6
- {
+h6 {
   font-family: var(--heading-font-family);
-  
 }
 
 h1 {
   font-size: 66px;
   font-weight: bold;
-  color: var(--first-color)
-}
-
-h2,p{
-  color:var(--fourth-color);
-}
-
-h2{
-  font-size: 44px;
-color: var(--fourth-color); 
- font-weight: bolder;
-  
-}
-
-h3{
-  color:var(--fourth-color);
-}
-
-h4{
   color: var(--first-color);
 }
 
-h5{
+h2,
+p {
+  color: var(--fourth-color);
+}
+
+h2 {
+  font-size: 44px;
+  color: var(--fourth-color);
+  font-weight: bolder;
+}
+
+h3 {
+  color: var(--fourth-color);
+}
+
+h4 {
+  color: var(--first-color);
+}
+
+h5 {
   color: var(--first-color);
   font-size: 40px;
-  
-
 }
 
-h6{
+h6 {
   font-style: italic;
   color: var(--first-color);
 }
 
-p{
-  font-size:16px;
+p {
+  font-size: 16px;
   line-height: 1.7;
 }
 
-img{
+img {
   border-radius: 10px;
 }
 
@@ -88,77 +83,89 @@ img{
   line-height: 30px;
 }
 
-.btn-branding-outline{
+.btn-branding-outline {
   font-size: 18px;
   line-height: 30px;
   border-radius: 4px;
-  color:var(--fourth-color);
-  border:1px solid var(--third-color);
+  color: var(--fourth-color);
+  border: 1px solid var(--third-color);
 }
 
-.intro{
+.intro {
   padding-top: 50px;
   padding-bottom: 50px;
   background: var(--fourth-color);
 }
 
-.about-section{
+.about-section {
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
+.profile {
+  border-radius: 20px;
+}
+
+/*Work section */
+
+.content-container {
+  background: var(--fourth-color) ;
+  padding: 140px 20px;
+}
 
 
-
-@media(max-width:960px){
-  h1{
-    font-size:40px;
-  }
-
-  h2{
+@media (max-width: 960px) {
+  h1 {
     font-size: 30px;
   }
 
-  h5{
-    font-size:20px;
+  h2 {
+    font-size: 30px;
   }
 
-  .hero{
+  h4{
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .hero {
     padding: 80px 20px;
   }
 
-  .project-description{
-    padding:0;
+  .project-description {
+    padding: 0;
     text-align: center;
-
   }
 
-  .about-section{
-    padding-top:0px;
+  .about-section {
+    padding-top: 0px;
   }
 
-  .intro{
+  .intro {
     padding-top: 50px;
   }
 
-  .btn-branding{
+  .btn-branding {
     display: block;
     margin: 0px;
+
   }
 
-}
-
-.profile{
-  border-radius: 20px;
+  .work{
+    padding: 30px;
+  }
 }
 
 /* Grey effect on images */
 .project-img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
 .project-img:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
