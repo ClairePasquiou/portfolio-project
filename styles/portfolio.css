@@ -235,6 +235,11 @@ footer .contact-box p{
   color: var(--third-color);
 }
 
+.icon{
+  margin-top:30px;
+  margin-bottom:70px;
+}
+
 
 
 @media (max-width: 960px) {
@@ -280,5 +285,14 @@ footer .contact-box p{
   footer .contact-box{
 padding: 30px;
 }
+
+.icon{
+  width: 50px;
+}
+
+footer{
+  margin:0px;
+}
+
 
 }
