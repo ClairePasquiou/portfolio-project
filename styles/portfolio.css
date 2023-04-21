@@ -216,6 +216,24 @@ footer .contact-box p{
 
 }
 
+.app-button{
+  transition: all 100ms ease-in-out ;
+}
+.app-button:hover{
+  background: var(--fourth-color);
+  color: var(--first-color);
+  
+}
+
+.app-link{
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+
+.app-link:hover{
+  color: var(--third-color);
+}
 
 
 
