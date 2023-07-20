@@ -7,10 +7,6 @@
   --default-font-family: "Outfit", sans-serif;
 }
 
-body {
-  font-family: var(--default-font-family);
-}
-
 h1,
 h2,
 h3,
@@ -122,13 +118,9 @@ img {
   padding: 60px 20px;
 }
 
-
-
-
-
 /*Navigation*/
 
-nav{
+nav {
   padding: 20px 0;
 }
 nav ul {
@@ -142,54 +134,49 @@ nav li {
   margin-left: 10px;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: var(--third-color);
   transition: all 100ms ease-in-out;
 }
 
-
-
-nav a:hover, nav li.active a{
+nav a:hover,
+nav li.active a {
   color: var(--fourth-color);
 }
 
-.brand{
+.brand {
   text-decoration: none;
   color: var(--fourth-color);
   font-weight: 700;
   font-size: 23px;
-
 }
 
-.brand:hover{
+.brand:hover {
   color: var(--third-color);
 }
 
-
-
-
-footer{
+footer {
   margin: 60px 0;
 }
 
-footer .contact-box{
-background:var(--second-color);
-padding: 30px;
-border-radius: 10px;
+footer .contact-box {
+  background: var(--second-color);
+  padding: 30px;
+  border-radius: 10px;
 }
 
-footer .email-link{
+footer .email-link {
   text-decoration: none;
   color: var(--third-color);
   font-size: 24px;
 }
 
-footer .email-link:hover{
+footer .email-link:hover {
   color: var(--fourth-color);
 }
 
-footer .social-links a{
+footer .social-links a {
   margin: 0 20px;
   color: var(--first-color);
   background-color: var(--fourth-color);
@@ -197,50 +184,44 @@ footer .social-links a{
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
- 
 }
 
-footer .social-links a:hover{
+footer .social-links a:hover {
   color: var(--fourth-color);
   background-color: var(--first-color);
 }
 
-footer .contact-box p{
+footer .contact-box p {
   margin: 0;
 }
 
-.contact-box h4{
+.contact-box h4 {
   color: var(--fourth-color);
   font-size: 48px;
   font-weight: bold;
-
 }
 
-.app-button{
-  transition: all 100ms ease-in-out ;
+.app-button {
+  transition: all 100ms ease-in-out;
 }
-.app-button:hover{
+.app-button:hover {
   background: var(--fourth-color);
   color: var(--first-color);
-  
 }
 
-.app-link{
+.app-link {
   text-decoration: none;
   color: var(--fourth-color);
 }
 
-
-.app-link:hover{
+.app-link:hover {
   color: var(--third-color);
 }
 
-.icon{
-  margin-top:30px;
-  margin-bottom:70px;
+.icon {
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
-
-
 
 @media (max-width: 960px) {
   h1 {
@@ -251,13 +232,9 @@ footer .contact-box p{
     font-size: 30px;
   }
 
-
-
   h5 {
     font-size: 20px;
   }
-
-
 
   .project-description {
     padding: 0;
@@ -272,8 +249,6 @@ footer .contact-box p{
     padding-top: 50px;
   }
 
-
-
   .btn-branding {
     margin: 0px;
   }
@@ -282,17 +257,15 @@ footer .contact-box p{
     padding: 30px;
   }
 
-  footer .contact-box{
-padding: 30px;
-}
+  footer .contact-box {
+    padding: 30px;
+  }
 
-.icon{
-  width: 50px;
-}
+  .icon {
+    width: 50px;
+  }
 
-footer{
-  margin:0px;
-}
-
-
+  footer {
+    margin: 0px;
+  }
 }
