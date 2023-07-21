@@ -18,6 +18,7 @@ body{
   background: #0c0b0b;
 }
 
+/*Index Page*/
 
 .hero {
   padding: 60px 50px;
@@ -30,6 +31,38 @@ footer p{
 footer a{
   color: white;
 }
+
+/*buttons*/
+
+.navigation-buttons{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a.button1{
+  display:inline-block;
+  padding:20px 80px 20px 80px;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-size: large;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+a.button1:hover{
+  color:#000000;
+background-color:#FFFFFF;
+}
+/*buttons*/
+
+
+
 
 
 /*In construction */
@@ -234,22 +267,7 @@ footer .contact-box p {
   font-weight: bold;
 }
 
-.app-button {
-  transition: all 100ms ease-in-out;
-}
-.app-button:hover {
-  background: var(--fourth-color);
-  color: var(--first-color);
-}
 
-.app-link {
-  text-decoration: none;
-  color: var(--fourth-color);
-}
-
-.app-link:hover {
-  color: var(--third-color);
-}
 
 .icon {
   margin-top: 30px;
@@ -304,4 +322,13 @@ footer .contact-box p {
   footer {
     margin: 0px;
   }
+
+/*Button index */
+
+a.button1{
+  padding: 10px;
+  font-size: medium;
+}
+
+
 }
