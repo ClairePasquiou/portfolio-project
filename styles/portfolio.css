@@ -7,9 +7,36 @@
   --default-font-family: "Outfit", sans-serif;
 }
 
-h1,
+h1{
+  color: var(--first-color);
+}
+h3 {
+  color: #999999;
+}
+
+body{
+  background: #0c0b0b;
+}
+
+
+.hero {
+  padding: 60px 50px;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+
+/*In construction */
+
+
 h2,
-h3,
+
 h4,
 h5,
 h6 {
@@ -33,17 +60,15 @@ h2 {
   font-weight: bolder;
 }
 
-.hero h2{
+.hero h2 {
   color: var(--first-color);
 }
 
-.hero h1{
+.hero h1 {
   color: var(--second-color);
 }
 
-h3 {
-  color: var(--fourth-color);
-}
+
 
 h4 {
   color: var(--first-color);
@@ -68,11 +93,7 @@ img {
   border-radius: 10px;
 }
 
-.hero {
-  background: var(--fourth-color);
-  text-align: center;
-  padding: 60px 20px;
-}
+
 
 .hero h4 {
   font-family: var(--default-font-family);
@@ -164,6 +185,8 @@ nav li.active a {
   color: var(--third-color);
 }
 
+/*Footer*/
+
 footer {
   margin: 60px 0;
 }
@@ -186,7 +209,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--first-color);
+  color: white;
   background-color: var(--fourth-color);
   padding: 10px 16px;
   font-size: 18px;
@@ -195,13 +218,15 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: var(--fourth-color);
+  color: white;
   background-color: var(--first-color);
 }
 
 footer .contact-box p {
   margin: 0;
 }
+
+/*App*/
 
 .contact-box h4 {
   color: var(--fourth-color);
@@ -230,7 +255,7 @@ footer .contact-box p {
   margin-top: 30px;
   margin-bottom: 70px;
 }
-.introduction{
+.introduction {
   padding: 60px;
 }
 
