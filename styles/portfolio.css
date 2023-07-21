@@ -6,7 +6,7 @@
   --heading-font-family: "Nanum Gothic", sans-serif;
   --default-font-family: "Outfit", sans-serif;
 }
-body{
+body {
   background: #0c0b0b;
 }
 
@@ -22,55 +22,43 @@ h6 {
   font-family: var(--heading-font-family);
 }
 
-.hero h1{
+.hero h1 {
   color: white;
   font-size: 90px;
   font-weight: bold;
-  
 }
 
-.hero h2{
-
-color:#c9d6df;
+.hero h2 {
+  color: #c9d6df;
 }
-
-
-
-
-
-
-
-
 
 /*buttons*/
 
-.navigation-buttons{
+.navigation-buttons {
   padding-left: 50px;
   padding-right: 50px;
 }
 
-a.button1{
-  display:inline-block;
-  padding:20px 80px 20px 80px;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
+a.button1 {
+  display: inline-block;
+  padding: 20px 80px 20px 80px;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
   box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto',sans-serif;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
   font-size: large;
-  font-weight:300;
-  color:#FFFFFF;
-  text-align:center;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
   transition: all 0.2s;
 }
 
-a.button1:hover{
-  color:#000000;
-background-color:#FFFFFF;
+a.button1:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
-
-
 
 /*New Footer*/
 
@@ -78,14 +66,13 @@ footer {
   margin: 100px 0;
 }
 
-footer p{
+footer p {
   color: white;
 }
 
-footer a{
+footer a {
   color: white;
 }
-
 
 /*Footer links */
 
@@ -96,7 +83,6 @@ footer .social-links a {
   padding: 10px 16px;
   font-size: 18px;
   border-radius: 50%;
-  
 }
 
 footer .email-link {
@@ -109,23 +95,12 @@ footer .email-link:hover {
   color: white;
 }
 
-
-
-
 /*In construction */
-
-
-
-
 
 h2,
 p {
   color: var(--fourth-color);
 }
-
-
-
-
 
 h4 {
   color: var(--first-color);
@@ -149,8 +124,6 @@ p {
 img {
   border-radius: 10px;
 }
-
-
 
 .hero h4 {
   font-family: var(--default-font-family);
@@ -242,8 +215,6 @@ nav li.active a {
   color: var(--third-color);
 }
 
-
-
 /*App*/
 
 .contact-box h4 {
@@ -251,8 +222,6 @@ nav li.active a {
   font-size: 48px;
   font-weight: bold;
 }
-
-
 
 .icon {
   margin-top: 30px;
@@ -275,29 +244,29 @@ nav li.active a {
     font-size: 20px;
   }
 
-  .hero h1{
-    font-size:50px;
+  .hero h1 {
+    font-size: 50px;
   }
 
-  .hero h2{
-    font-size:20px;
+  .hero h2 {
+    font-size: 20px;
   }
 
-.start-image{
-  display:none;
-}
+  .start-image {
+    display: none;
+  }
 
-.hero .introduction{
-  padding-bottom:0px;
-}
+  .hero .introduction {
+    padding-bottom: 0px;
+  }
 
-.navigation-buttons{
-  padding-bottom:55px;
-}
+  .navigation-buttons {
+    padding-bottom: 55px;
+  }
 
-footer p{
-  font-size: 10px;
-}
+  footer p {
+    font-size: 10px;
+  }
 
   .project-description {
     padding: 0;
@@ -332,12 +301,10 @@ footer p{
     margin: 0px;
   }
 
-/*Button index */
+  /*Button index */
 
-a.button1{
-  padding: 10px;
-  font-size: medium;
-}
-
-
+  a.button1 {
+    padding: 10px;
+    font-size: medium;
+  }
 }
