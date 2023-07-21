@@ -6,31 +6,41 @@
   --heading-font-family: "Nanum Gothic", sans-serif;
   --default-font-family: "Outfit", sans-serif;
 }
-
-h1{
-  color: var(--first-color);
-}
-h3 {
-  color: #999999;
-}
-
 body{
   background: #0c0b0b;
 }
-
-/*Index Page*/
 
 .hero {
   padding: 60px 50px;
 }
 
-footer p{
-  color: white;
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
 }
 
-footer a{
+.hero h1{
   color: white;
+  font-size: 90px;
+  font-weight: bold;
+  
 }
+
+.hero h2{
+
+color:#c9d6df;
+}
+
+
+
+
+
+
+
+
 
 /*buttons*/
 
@@ -59,8 +69,45 @@ a.button1:hover{
   color:#000000;
 background-color:#FFFFFF;
 }
-/*buttons*/
 
+
+
+/*New Footer*/
+
+footer {
+  margin: 100px 0;
+}
+
+footer p{
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+
+/*Footer links */
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  background-color: #0c0b0b;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #999999;
+  font-size: 18px;
+}
+
+footer .email-link:hover {
+  color: white;
+}
 
 
 
@@ -68,38 +115,15 @@ background-color:#FFFFFF;
 /*In construction */
 
 
-h2,
 
-h4,
-h5,
-h6 {
-  font-family: var(--heading-font-family);
-}
 
-h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: var(--first-color);
-}
 
 h2,
 p {
   color: var(--fourth-color);
 }
 
-h2 {
-  font-size: 44px;
-  color: var(--fourth-color);
-  font-weight: bolder;
-}
 
-.hero h2 {
-  color: var(--first-color);
-}
-
-.hero h1 {
-  color: var(--second-color);
-}
 
 
 
@@ -218,46 +242,7 @@ nav li.active a {
   color: var(--third-color);
 }
 
-/*Footer*/
 
-footer {
-  margin: 60px 0;
-}
-
-footer .contact-box {
-  background: var(--second-color);
-  padding: 30px;
-  border-radius: 10px;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: var(--third-color);
-  font-size: 24px;
-}
-
-footer .email-link:hover {
-  color: var(--fourth-color);
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  color: white;
-  background-color: var(--fourth-color);
-  padding: 10px 16px;
-  font-size: 18px;
-  border-radius: 50%;
-  transition: all 100ms ease-in-out;
-}
-
-footer .social-links a:hover {
-  color: white;
-  background-color: var(--first-color);
-}
-
-footer .contact-box p {
-  margin: 0;
-}
 
 /*App*/
 
@@ -289,6 +274,30 @@ footer .contact-box p {
   h5 {
     font-size: 20px;
   }
+
+  .hero h1{
+    font-size:50px;
+  }
+
+  .hero h2{
+    font-size:20px;
+  }
+
+.start-image{
+  display:none;
+}
+
+.hero .introduction{
+  padding-bottom:0px;
+}
+
+.navigation-buttons{
+  padding-bottom:55px;
+}
+
+footer p{
+  font-size: 10px;
+}
 
   .project-description {
     padding: 0;
