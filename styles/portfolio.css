@@ -1,8 +1,5 @@
 :root {
-  --first-color: #f0f5f9;
-  --second-color: #c9d6df;
-  --third-color: #52616b;
-  --fourth-color: #1e2022;
+
   --heading-font-family: "Nanum Gothic", sans-serif;
   --default-font-family: "Outfit", sans-serif;
 }
@@ -16,10 +13,12 @@ body {
 
 h1,
 h2,
+h3,
 h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
+  color: white;
 }
 
 .hero h1 {
@@ -30,6 +29,76 @@ h6 {
 
 .hero h2 {
   color: #c9d6df;
+}
+
+img {
+  border-radius: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: white;
+}
+
+.about-section {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  border-radius: 20px;
+}
+
+
+/* intros */
+
+.intro {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro h1,h5,h6{
+  color: rgb(255, 255, 255);
+}
+
+/* Navigation */
+
+nav {
+  padding: 20px 0;
+  
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: grey;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.brand:hover {
+  color: var(--third-color);
 }
 
 /*buttons*/
@@ -60,7 +129,9 @@ a.button1:hover {
   background-color: #ffffff;
 }
 
-/*New Footer*/
+
+
+/*Footer*/
 
 footer {
   margin: 100px 0;
@@ -99,71 +170,27 @@ footer .email-link:hover {
   color: white;
 }
 
+
+
+
+
+
+
 /*In construction */
 
-h2,
-p {
-  color: var(--fourth-color);
-}
 
-h4 {
-  color: var(--first-color);
-}
 
-h5 {
-  color: var(--first-color);
-  font-size: 40px;
-}
 
-h6 {
-  font-style: italic;
-  color: var(--first-color);
-}
 
-p {
-  font-size: 16px;
-  line-height: 1.7;
-}
 
-img {
-  border-radius: 10px;
-}
 
-.hero h4 {
-  font-family: var(--default-font-family);
-  font-weight: lighter;
-}
 
-.btn-branding {
-  background: var(--third-color);
-  border-radius: 4px;
-  color: var(--first-color);
-  font-size: 18px;
-  line-height: 30px;
-}
 
-.btn-branding-outline {
-  font-size: 18px;
-  line-height: 30px;
-  border-radius: 4px;
-  color: var(--fourth-color);
-  border: 1px solid var(--third-color);
-}
 
-.intro {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: var(--fourth-color);
-}
 
-.about-section {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
 
-.profile {
-  border-radius: 20px;
-}
+
+
 
 /*Work section */
 
@@ -181,43 +208,6 @@ img {
   padding: 60px 20px;
 }
 
-/*Navigation*/
-
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 40px;
-  margin-left: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--third-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--fourth-color);
-}
-
-.brand {
-  text-decoration: none;
-  color: var(--fourth-color);
-  font-weight: 700;
-  font-size: 23px;
-}
-
-.brand:hover {
-  color: var(--third-color);
-}
 
 /*App*/
 
