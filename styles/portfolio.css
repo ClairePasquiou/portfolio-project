@@ -129,7 +129,11 @@ a.button1:hover {
   background-color: #ffffff;
 }
 
+/*About Me*/
 
+.tech-stack-text{
+  margin-top: 30px;
+}
 
 /*Footer*/
 
@@ -308,6 +312,9 @@ footer .email-link:hover {
     
   }
 
+ .about-section .picture-about{
+  height: 300px;
+ }
   
 
 }
