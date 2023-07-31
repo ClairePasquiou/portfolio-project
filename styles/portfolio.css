@@ -205,17 +205,18 @@ footer .email-link:hover {
 
 /*Contact page*/
 
-.contact-text {
-  color: var(--fourth-color);
-}
+
 .contact-container {
   padding: 60px 20px;
 }
 
+.contact-container a{
+  text-decoration: none;
+
+}
+
 
 /*App*/
-
-
 
 .icon {
   margin-top: 30px;
@@ -299,6 +300,9 @@ footer .email-link:hover {
     padding: 10px;
     font-size: medium;
   }
+
+
+  
 }
 
 
@@ -312,5 +316,6 @@ footer .email-link:hover {
   height: 300px;
  }
   
+
 
 }
