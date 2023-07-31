@@ -175,32 +175,10 @@ footer .email-link:hover {
 }
 
 
-
-
-
-
-
-/*In construction */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Work section */
 
 .content-container {
-  background: var(--fourth-color);
-  padding: 140px 20px;
+  padding: 100px 20px;
 }
 
 /*Contact page*/
@@ -225,6 +203,10 @@ footer .email-link:hover {
 .introduction {
   padding: 60px;
 }
+
+
+
+
 
 @media only screen and (max-width: 768px) {
   h1 {
@@ -279,7 +261,7 @@ footer .email-link:hover {
   }
 
   .work {
-    padding: 30px;
+    padding: 60px;
   }
 
   footer .contact-box {
