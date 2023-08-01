@@ -49,7 +49,7 @@ p {
   border-radius: 20px;
 }
 
-a.underline{
+a.underline {
   background-image: linear-gradient(
     to right,
     #54b3d6,
@@ -67,8 +67,8 @@ a.underline{
   font-size: 20px;
 }
 
-a.underline:before{
-  content: '';
+a.underline:before {
+  content: "";
   background: #54b3d6;
   display: block;
   position: absolute;
@@ -79,14 +79,13 @@ a.underline:before{
   transition: all 0.3s ease-in-out;
 }
 
-a.underline:hover{
+a.underline:hover {
   background-position: 0;
 }
 
-a.underline:hover::before{
+a.underline:hover::before {
   width: 100%;
 }
-
 
 /* intros */
 
