@@ -49,9 +49,8 @@ p {
   border-radius: 20px;
 }
 
-
-
-a.underline, a.intro {
+a.underline,
+a.intro {
   background-image: linear-gradient(
     to right,
     #54b3d6,
@@ -69,7 +68,8 @@ a.underline, a.intro {
   font-size: 20px;
 }
 
-a.underline:before, a.intro:before {
+a.underline:before,
+a.intro:before {
   content: "";
   background: #54b3d6;
   display: block;
@@ -81,15 +81,17 @@ a.underline:before, a.intro:before {
   transition: all 0.3s ease-in-out;
 }
 
-a.underline:hover , a.intro:hover {
+a.underline:hover,
+a.intro:hover {
   background-position: 0;
 }
 
-a.underline:hover::before, a.intro:hover::before {
+a.underline:hover::before,
+a.intro:hover::before {
   width: 100%;
 }
 
-a.intro{
+a.intro {
   font-size: 15px;
   font-style: italic;
 }
