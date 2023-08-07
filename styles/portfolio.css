@@ -181,6 +181,9 @@ a.button1:hover {
   margin-top: 30px;
 }
 
+
+
+
 /*Footer*/
 
 footer {
@@ -224,6 +227,14 @@ footer .email-link:hover {
 
 .content-container {
   padding: 100px 20px;
+}
+
+.project-img{
+  height: 340px;
+  transition: transform .2s;
+}
+.project-img:hover{
+  transform: scale(1.02);
 }
 
 /*Contact page*/
