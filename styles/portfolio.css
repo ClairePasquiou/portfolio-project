@@ -227,7 +227,8 @@ footer .email-link:hover {
 }
 
 .project-img {
-  height: 340px;
+  height: 300px;
+  width: 400px;
   transition: transform 0.2s;
 }
 .project-img:hover {
