@@ -193,6 +193,7 @@ footer p {
 
 footer a {
   color: white;
+  text-decoration: underline;
 }
 
 footer a:hover {
@@ -220,6 +221,10 @@ footer .email-link:hover {
   color: white;
 }
 
+.footer-link {
+  text-decoration: underline;
+}
+
 /*Work section */
 
 .content-container {
@@ -239,10 +244,6 @@ footer .email-link:hover {
 
 .contact-container {
   padding: 60px 20px;
-}
-
-.contact-container a {
-  text-decoration: none;
 }
 
 /*App*/
