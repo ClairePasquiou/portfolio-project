@@ -309,7 +309,7 @@ footer .email-link:hover {
   }
 
   .work {
-    padding: 60px;
+    padding: 20px;
   }
 
   footer .contact-box {
@@ -322,6 +322,11 @@ footer .email-link:hover {
 
   footer {
     margin: 0px;
+  }
+
+  img {
+    border-radius: 0%;
+    margin-top: 20px;
   }
 
   /*Button index */
