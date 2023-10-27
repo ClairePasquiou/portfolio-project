@@ -233,11 +233,20 @@ footer .email-link:hover {
 
 .project-img {
   height: 263px;
-  width: 400px;
+  width: 380px;
   transition: transform 0.2s;
 }
 .project-img:hover {
   transform: scale(1.02);
+}
+
+.app-img{
+  height: 350px;
+  width: 450px;
+  transition: transform 0.2s;
+}
+.app-img:hover{
+  transform:scale(1.02);
 }
 
 /*Contact page*/
