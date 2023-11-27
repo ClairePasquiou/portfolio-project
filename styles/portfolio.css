@@ -177,8 +177,24 @@ a.button1:hover {
 
 /*About Me*/
 
+.intro-me{
+  color: #969699;
+  padding: 20px;
+  border-left: 3px solid;
+  margin: 10px 300px 10px 100px;
+  line-height: 28px;
+
+}
 .tech-stack-text {
   margin-top: 30px;
+}
+
+.programmer-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 200px;
 }
 
 /*Footer*/
@@ -296,6 +312,7 @@ footer .email-link:hover {
     padding-bottom: 55px;
   }
 
+
   footer p {
     font-size: 10px;
   }
@@ -308,6 +325,18 @@ footer .email-link:hover {
   .about-section {
     padding-top: 0px;
   }
+
+  .intro-me{
+  margin: 0px;
+  font-size: 10px;
+
+}
+
+.programmer-image{
+  height: 100px;
+  width: 100%;
+  margin-bottom: 40px;
+}
 
   .intro {
     padding-top: 50px;
@@ -349,6 +378,10 @@ footer .email-link:hover {
 @media only screen and (min-width: 768px) and (max-width: 1180px) and (orientation: portrait) {
   .hero h1 {
     font-size: 45px;
+  }
+
+  .intro-me{
+    margin-right: 0px;
   }
 
   .about-section .picture-about {
